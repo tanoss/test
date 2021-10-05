@@ -1,6 +1,5 @@
 package ec.com.informega.prueba.service;
 
-import ec.com.informega.prueba.model.Canton;
 import ec.com.informega.prueba.model.Parroquia;
 
 import java.util.List;

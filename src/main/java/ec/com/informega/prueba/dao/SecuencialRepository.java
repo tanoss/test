@@ -6,4 +6,6 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface SecuencialRepository extends JpaRepository<Secuencial, Long> {
+    //Secuencial findById(Long id);
+
 }

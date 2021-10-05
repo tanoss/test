@@ -4,8 +4,10 @@ import ec.com.informega.prueba.model.Estado;
 import ec.com.informega.prueba.service.EstadoService;
 import org.springframework.stereotype.Service;
 
+import javax.transaction.Transactional;
 import java.util.List;
 @Service
+@Transactional
 public class EstadoImplement implements EstadoService {
     @Override
     public List<Estado> getAllsector() {

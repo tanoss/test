@@ -7,4 +7,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface CantonRepository extends JpaRepository<Canton, Long> {
+    Canton findByCantonNombre(Long id);
 }

@@ -6,4 +6,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface ParroquiaRepository extends JpaRepository<Parroquia, Long> {
+    //Parroquia findById (Long id);
 }
